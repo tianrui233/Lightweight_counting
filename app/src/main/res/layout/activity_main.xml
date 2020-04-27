@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_marginTop="130sp"
+    android:layout_width="wrap_content"
+    android:layout_height="400sp"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/digital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="@string/wait_up"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteY="192dp"
+        android:layout_marginBottom="20sp"/>
+
+    <Button
+        android:textSize="35sp"
+        android:id="@+id/btn_up"
+        android:layout_marginTop="45sp"
+        android:layout_width="230sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/up" />
+
+    <Button
+        android:textSize="35sp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_down"
+        android:layout_width="230sp"
+        android:layout_height="70sp"
+        android:text="@string/down" />
+
+    <Button
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_reset"
+        android:layout_width="230sp"
+        android:layout_height="70sp"
+        android:text="@string/reset"/>
+</LinearLayout>
+</ScrollView>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_alignParentBottom="true"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:text="@string/about"/>
+
+    <Button
+        android:id="@+id/btn_author"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:text="@string/author"/>
+
+    <Button
+        android:id="@+id/btn_history"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:text="历史记录"/>
+</RelativeLayout>
+</LinearLayout>

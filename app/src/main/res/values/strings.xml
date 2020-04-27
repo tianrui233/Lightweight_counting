@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">轻计数</string>
+    <string name="wait_up">请按下“+”键开始计数</string>
+    <string name="up">+</string>
+    <string name="down">-</string>
+    <string name="reset">重置</string>
+    <string name="toomuch">真的有那么多吗😶</string>
+    <string name="toomuc">真的有那么少吗😶</string>
+    <string name="Hasbeenreset">已经重置啦☺，不要再点我了</string>
+    <string name="about">关于</string>
+    <string name="author">作者</string>
+    <string name="abouts">关于本软件 v0.1</string>
+    <string name="aboutss">“轻计数”就是用来记录你数到几了\n\n\n\n仅此而已😂\n\n本程序算是对自己前一阶段自学kotlin的巩固
+</string>
+    <string name="author_name">tianrui233</string>
+    <string name="_18_01">一个刚接触kotlin的萌新</string>
+</resources>
