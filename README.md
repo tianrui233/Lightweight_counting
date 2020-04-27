@@ -1,4 +1,5 @@
-# Lightweight_counting
+# Lightweight counting
+# 轻 · 计数
 轻计数 - 一个可以帮助你记录数到几了的轻量级计数软件😂
 主界面就是酱紫
 
